@@ -5,7 +5,7 @@ import { useState } from 'react' // primeiro passo para trabalharmos com useStat
 // serve para gerenciar o estado de algum valor
 
 function App() {
-  const [name, setName] = useState("Matheus")
+  const [name, setName] = useState("Pedro Augusto Inácio")
   const [number, setNumber] = useState(1)
 
   const changeNumber = () => {
